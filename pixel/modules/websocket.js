@@ -54,7 +54,7 @@ function receiveMessage(ws, message){
 	key  = Object.keys(request)[0];
 	value = Object.values(request)[0];
 
-	if(key > 16){
+	if(key > 15){
 		ws.send('ERR_COLOR_ID');
 		return;
 	}
