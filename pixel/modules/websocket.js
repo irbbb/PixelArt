@@ -60,7 +60,7 @@ function receiveMessage(ws, message){
 	}
 
 	// Validate tile id
-	if(value < 0 || value > 40000){
+	if(value < 0 || value >= 40000){
 		ws.send('ERR_TILE_ID');
 		return;
 	}
