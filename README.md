@@ -1,6 +1,6 @@
 # Pixel Art - HackAfor
 
-This is an online pixel art, basically a game where you can place pixels and create art with other people.
+This is an online pixel art, basically a game where you can place pixels and create art with other people. http://13.37.222.11/
 
 ## Table of contents
 
